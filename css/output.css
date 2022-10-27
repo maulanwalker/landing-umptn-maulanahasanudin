@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@500;600&display=swap");
+
 /*
 ! tailwindcss v3.2.1 | MIT License | https://tailwindcss.com
 */
@@ -416,7 +418,7 @@ video {
   display: none;
 }
 
-*, ::before, ::after {
+*, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -463,7 +465,7 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-::-webkit-backdrop {
+::-webkit-backdrop{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -510,7 +512,7 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-::backdrop {
+::backdrop{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -557,79 +559,212 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.container {
+.container{
   width: 100%;
 }
 
-@media (min-width: 640px) {
-  .container {
+@media (min-width: 640px){
+  .container{
     max-width: 640px;
   }
 }
 
-@media (min-width: 768px) {
-  .container {
+@media (min-width: 768px){
+  .container{
     max-width: 768px;
   }
 }
 
-@media (min-width: 1024px) {
-  .container {
+@media (min-width: 1024px){
+  .container{
     max-width: 1024px;
   }
 }
 
-@media (min-width: 1280px) {
-  .container {
+@media (min-width: 1280px){
+  .container{
     max-width: 1280px;
   }
 }
 
-@media (min-width: 1536px) {
-  .container {
+@media (min-width: 1536px){
+  .container{
     max-width: 1536px;
   }
 }
 
-.mx-auto {
+.card {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+.m-auto{
+  margin: auto;
+}
+
+.mx-auto{
   margin-left: auto;
   margin-right: auto;
 }
 
-.mb-4 {
+.mb-4{
   margin-bottom: 1rem;
 }
 
-.mb-7 {
+.mb-7{
   margin-bottom: 1.75rem;
 }
 
-.flex {
+.mt-16{
+  margin-top: 4rem;
+}
+
+.mt-8{
+  margin-top: 2rem;
+}
+
+.mb-3{
+  margin-bottom: 0.75rem;
+}
+
+.box-border{
+  box-sizing: border-box;
+}
+
+.flex{
   display: flex;
 }
 
-.h-screen {
-  height: 100vh;
+.h-auto{
+  height: auto;
 }
 
-.items-center {
-  align-items: center;
+.w-32{
+  width: 8rem;
 }
 
-.justify-center {
+.w-12{
+  width: 3rem;
+}
+
+.flex-1{
+  flex: 1 1 0%;
+}
+
+.flex-col{
+  flex-direction: column;
+}
+
+.content-center{
+  align-content: center;
+}
+
+.justify-center{
   justify-content: center;
 }
 
-.bg-slate-200 {
+.rounded-lg{
+  border-radius: 0.5rem;
+}
+
+.bg-slate-200{
   --tw-bg-opacity: 1;
   background-color: rgb(226 232 240 / var(--tw-bg-opacity));
 }
 
-.py-14 {
+.bg-blue-500{
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+}
+
+.p-2{
+  padding: 0.5rem;
+}
+
+.py-14{
   padding-top: 3.5rem;
   padding-bottom: 3.5rem;
 }
 
-.text-center {
+.py-2{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.px-4{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.pt-8{
+  padding-top: 2rem;
+}
+
+.pb-8{
+  padding-bottom: 2rem;
+}
+
+.text-center{
   text-align: center;
+}
+
+.font-urban{
+  font-family: Urbanist;
+}
+
+.font-THICCCBOI{
+  font-family: THICCCBOI;
+}
+
+.font-semibold{
+  font-weight: 600;
+}
+
+.text-white{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.shadow-md{
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.display-1 {
+  font-size: calc(1.375rem + 1.5vw);
+  line-height: 1.15;
+}
+
+@font-face {
+  font-family: "THICCCBOI";
+
+  src: url("./font/THICCCBOI-Bold.woff2") format("woff2");
+}
+
+.hover\:bg-blue-700:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(29 78 216 / var(--tw-bg-opacity));
+}
+
+.focus\:outline-none:focus{
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.focus\:ring-2:focus{
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+
+.focus\:ring-blue-400:focus{
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(96 165 250 / var(--tw-ring-opacity));
+}
+
+.focus\:ring-opacity-75:focus{
+  --tw-ring-opacity: 0.75;
 }
